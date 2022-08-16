@@ -1,0 +1,259 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+a {
+    color: #424243;
+    text-decoration: none;
+}
+
+@media (min-width:1280px) {
+    div.container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    aside {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    div#name {
+        font-family: 'Lato', sans-serif;
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+
+    div#name_2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500px;
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+
+    div#profession {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    header {
+        height: 480px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    header.henry {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    header img {
+        width: 250px;
+        margin-bottom: 5%;
+    }
+
+    div.name_job {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #b3d8ec;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-bottom: 25px;
+        max-height: 1395px;
+    }
+
+    .nav_content {
+        position: relative;
+        top: -5%;
+        left: 13%;
+    }
+
+    .header {
+        width: 72.7%;
+        height: 60px;
+        background-color: #424243;
+        margin-top: 35px;
+        margin-bottom: 35px;
+
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        line-height: 60px;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 3px;
+    }
+
+    .info img, .followme img {
+        width: 35px;
+        height: auto;
+        margin-right: 30px;
+        max-height: 56px;
+    }
+
+    .info a, .info div{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 25px;
+        margin-right: 5.5%;
+    }
+
+    div.specific_lng {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 400px;
+    }
+
+    .info, .col1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 250px;
+        width: 72.7%;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 35px;
+    }
+
+    div.circle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 108px;
+        margin-right: 150px;
+        margin-top: 6px;
+    }
+
+    .circle_item {
+        background-color: #d0d1d3;
+        height: 12px;
+        width: 12px;
+        border-radius: 10px;
+    }
+
+    .circle_item_l {
+        background-color: #eeeef0;
+        height: 12px;
+        width: 12px;
+        border-radius: 10px;
+    }
+    
+
+    .col {
+        background-color: #424243;
+    }
+
+    div.hobbies, div.info {
+        height: 240px !important; 
+    }
+
+    section.skills>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    div.hb_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    div.hb_info div {
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+
+    section.main_info {
+        margin-left: 5%;
+        width: 60%;
+        margin-right: 5%;
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+    }
+
+    header.head_info {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: 50px;
+        line-height: 50px;
+        font-size: 25px;
+        width: 100%;
+        font-family: 'Lato', sans-serif;
+        margin: 30px 0px 40px;
+    }
+
+    header.head_info img {
+        width: 50px;
+        margin: 0px;
+        margin-right: 20px;
+    }
+
+    header.head_info div {
+        font-weight: bold;
+        border-bottom: 2px solid #343334;
+        width: 100%;
+    }
+
+    div.name+div {
+        margin-bottom: 20px;
+    }
+    
+    section.about {
+        margin-bottom: 50px;
+    }
+
+    section.about div {
+        font-family: 'Open Sans', sans-serif;
+        color: #424243;
+    }
+
+    div.name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    div.e_name {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    div.name+div {
+        color: #424243;
+        margin-bottom: 35px;
+    }
+
+    section.skills>div {
+        width: 60% !important;
+        font-weight: bold;
+    }
+
+    div.hb {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start !important;
+    }
+    
+}   
+
+
+
